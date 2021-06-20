@@ -60,7 +60,7 @@ img.logo-default {
 
 /* hero header section start  */
 .header-bg {
-  background-image: url("/assets/image/hero-header/iphone/header-bg.png");
+  background-image: url("../image/hero-header/iphone/header-bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -107,7 +107,7 @@ img.logo-default {
 
 /* bg section start*/
 .bg-section-wrapper {
-  background-image: url("/assets/image/hero-header/iphone/bg/features-1.png");
+  background-image: url("../image/hero-header/iphone/bg/features-1.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;

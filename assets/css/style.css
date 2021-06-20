@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* header section start  */
+.navbar {
+  display: block;
+  position: fixed;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  align-items: inherit;
+  box-shadow: 0 5px 10px rgb(0 9 128 / 4%), 0 7px 18px rgb(0 9 128 / 5%);
+  transition: box-shadow 0.35s ease-out, background-color 0.35s ease-out;
+  z-index: 9;
+}
+
+.header .nav-bg {
+  background: #612aee;
+  color: #fff !important;
+}
+img.logo-default {
+  width: 306px;
+}
+
+.hero-menu-list .nav-item .nav-link {
+  font-size: 16px;
+
+  color: #fff;
+  text-decoration: none;
+  padding-left: 18px;
+  padding-right: 18px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.hero-menu-list .nav-item .nav-link:hover {
+  color: #fff;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.let-start {
+  font-size: 1rem;
+  box-shadow: 0px 7px 30px 0px rgb(12 79 107 / 18%);
+  text-decoration: none;
+  background: linear-gradient(45deg, #4289ff 0%, #07f8c3 100%);
+  padding: 8px 25px;
+  color: #fff;
+  margin: 13px 0 13px 24px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+.let-start:hover {
+  box-shadow: 0px 7px 30px 0px rgb(41 183 230 / 47%);
+  color: #fff;
+}
+/* header section end  */
+
+/* hero header section start  */
+.header-bg {
+  background-image: url("/assets/image/hero-header/iphone/header-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 120px 0;
+}
+
+.header-bg-bottom {
+  position: absolute;
+  top: 25px;
+}
+.hero-wrapper {
+  padding: 70px 0;
+}
+.header-left {
+  margin-top: 40px;
+}
+
+.header-left h1 {
+  font-size: 65px;
+}
+.header-left p {
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 2.1rem;
+  color: #fff;
+  margin-right: 30px;
+}
+
+.moc-up {
+  animation: swing ease-in-out 4s infinite alternate;
+  width: 100%;
+}
+@keyframes swing {
+  0% {
+    transform: rotate(1deg);
+  }
+
+  100% {
+    transform: rotate(-1deg);
+  }
+}
+
+/* hero header section end */
+
+/* bg section start*/
+.bg-section-wrapper {
+  background-image: url("/assets/image/hero-header/iphone/bg/features-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.bg-second {
+  padding: 80px 0;
+}
+
+.bg-second .bg-title {
+  color: #1e1c42;
+  font-size: 36px;
+}
+
+.bg-section-wrapper {
+  position: relative;
+}
+
+.header-border {
+  top: 60px;
+  position: absolute;
+  border-radius: 5px;
+  width: 120px;
+  height: 7px;
+  background: linear-gradient(to right, #ffd019, #ff9c35);
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+
+/* bg section start*/
+.features-details{
+    display:flex;
+    align-items: center;
+}
+.features-logo img{
+    width:100%;
+}
+.features-content h3{
+    color: #232323;
+    font-size: 22px;
+}
+.features-content p{
+    color: #969696;
+    font-size: 15px;
+    line-height: 1.5rem;
+    margin-right: 90px;
+}
+.bg-meta{
+    margin-top: 90px;
+}
+
+.feature-wrapper{
+    margin-top: 100px;
+}
+/* bg section end*/

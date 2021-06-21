@@ -9,6 +9,13 @@ Extra extra large	xxl	≥1400px */
   html {
     font-size: 95%;
   }
+
+  .container-section-overlay-text {
+    margin-top: 2.625rem;
+  }
+  
+
+
 }
 @media screen and (max-width: 992px) {
   html {
@@ -17,6 +24,7 @@ Extra extra large	xxl	≥1400px */
   .hero-header-details h1 {
     font-size: 3.0625rem;
   }
+
 }
 @media screen and (max-width: 991px) {
   ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
@@ -43,6 +51,7 @@ Extra extra large	xxl	≥1400px */
   .container-section-overlay-text {
     color: #232323;
     margin-left: 35px;
+    margin-top: 140px;
   }
   .img-responsive {
     margin-top: 35px;
